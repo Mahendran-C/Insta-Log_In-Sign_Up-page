@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-fluid{
+    height: 100%;
+    margin: 2rem 0;
+}
+.form-wrapper{
+    width: 22rem;
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.logoContainer{
+   width: 13rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
+   opacity: .7;
+}
+
+form{
+    width: 16.75rem;
+}
+.btn{
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.fb-btn>button{
+    width: 16.75rem;
+    font-size: .9rem;
+}
+.fb-btn>button>img{
+    height: 1.5rem;
+    margin-right: .5rem;
+}
+.or{
+    width: 16.75rem;
+    opacity: .6;
+
+}
+
+.or span{
+    font-weight: bold;
+    font-size: .8rem;
+    
+}
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext {
+  padding: rem 0.75rem ; 
+}
+
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+  height: calc(2.5rem + 2px);
+  line-height: 1;
+}
+
+.form-floating>.form-control{
+    background-color: #eeeeee44;
+}
+
+.form-floating>label {
+  padding: 0.5rem 0.75rem;
+  opacity: .5;;
+}
+
+.text-content>.facebook img{
+    height: 1.5rem;
+}
+.facebook>a{
+    font-weight: 600;
+    color: rgba(66, 60, 117, 0.84);
+}
+.text-content>.forgotPwd>a{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(66, 60, 117, 0.84);
+}
+
+.new-account{
+    width: 22rem;
+    max-width: 22rem;
+    border: 1px solid #ccc;
+    font-weight: 500;
+}
+
+small{
+    font-size: .725rem;
+}
+
+@media (max-width:720px) {
+    .container-fluid{
+        height: 100%;
+        margin: 5rem 0;
+    }
+}
